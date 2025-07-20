@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Rasilo</title>
         <meta charset="UTF-8">
@@ -12,22 +12,22 @@
     <body>
 <header id="main-header">
     <h1>Welcome to Rasilo Shop</h1>
-    <nav aria-lable="primary-header">
+    <nav aria-label="primary-header">
         <ul>
-            <li><a href="#">About Rasilo</a></li>
-            <li><a href="#">Our Menu</a></li>
-            <li><a href="#">Store Hours</a></li>
+            <li><a href="#AboutUs">About Rasilo</a></li>
+            <li><a href="#Rmenu">Our Menu</a></li>
+            <li><a href="hours.html">Store Hours</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <section id="shopImage">
+    <div id="shopImage">
         <img src="images/juice.jpg" alt="Rasilo Shop" width="400" >
        <p>Fruit Juice and Smoothies</p>
 
-    </section>
+    </div>
 
     <hr>
      
@@ -43,7 +43,7 @@
     </section>
     <hr>
 
-    <section>
+    <section id="Rmenu">
         <h2>Our Menu</h2>
         <table>
             <caption>Our Juices</caption>
@@ -65,14 +65,16 @@
                     <td>Small</td>
                     <td class="price">150</td>
                 </tr>
-                
+               
+                <tr>
                 <td>Green Juice</td>
                 <td>Cucumber,Spinach,Apple,Lemon</td>
                 <td>Small</td>
                 <td class="price">200</td>
-
+                </tr>
+               
                 <tr>
-                    <th rowspan="2" scope=" row">Summer Fresh</th>
+                    <th rowspan="2" scope="row">Summer Fresh</th>
                     <td>Summer Paradise</td>
                     <td>Watermelon, Ginger, Orange</td>
                     <td>Medium</td>
@@ -102,11 +104,12 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="5"> Additional fruit - Rps 40</td>
+                    <td colspan="5"> Additional fruit - Rps 40 </td>
                 </tr>
             </tfoot>
 
         </table>
+        </section>
        
         
         <p>
